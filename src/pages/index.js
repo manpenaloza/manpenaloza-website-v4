@@ -669,16 +669,16 @@ const IndexPage = () => (
           <form method="post" action="https://formspree.io/xoqkglzo">
             <div className="row">
               <div className="col-6 col-12-mobile">
-                <input type="text" name="name" placeholder="Your name" />
+                <input type="text" name="name" placeholder="Your name" required />
               </div>
               <div className="col-6 col-12-mobile">
-                <input type="email" name="_replyto" placeholder="Email address" />
+                <input type="email" name="_replyto" placeholder="Email address" required />
               </div>
               <div className="col-12">
                 <textarea name="message" placeholder="What's up?" />
               </div>
               <div className="col-12">
-                <input type="submit" value="SEND MESSAGE" />
+                <input type="submit" value="SEND MESSAGE" required />
               </div>
             </div>
           </form>
