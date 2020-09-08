@@ -374,7 +374,7 @@ const IndexPage = () => (
             former Marketing studies - which I finished in 2013 - complete my
             ability to build software. Either in terms of "understanding clients
             better" or to better understand the software's market fit, which
-            helps enormously define a development strategy and plan.
+            helps enormously to define a development strategy and plan.
           </p>
           <p>
             In the meantime, I've been writing code and creating business
