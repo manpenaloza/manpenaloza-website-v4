@@ -11,12 +11,19 @@ import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
 import pic8 from '../assets/images/pic08.jpg';
+import pic9 from '../assets/images/pic09.jpg';
+import pic10 from '../assets/images/pic10.jpg';
+import pic11 from '../assets/images/pic11.jpg';
+import pic12 from '../assets/images/pic12.jpg';
+import pic13 from '../assets/images/pic13.jpg';
+import portrait from '../assets/images/portrait.jpg';
 import Scroll from '../components/Scroll';
 
 const sections = [
   { id: 'top', name: 'Intro', icon: 'fa-home' },
   { id: 'portfolio', name: 'Portfolio', icon: 'fa-th' },
   { id: 'about', name: 'About Me', icon: 'fa-user' },
+  { id: 'createtogether', name: 'Create together', icon: 'fa-laptop' },
   { id: 'contact', name: 'Contact', icon: 'fa-envelope' },
 ];
 
@@ -29,16 +36,16 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Anubhav</strong>
+              Hi! I'm <strong>Manuel</strong>
               <br />
-              Web developer
+              Web & Software developer
             </h2>
-            <p>I have made few things check it out.</p>
+            <p>I've made few things using code. Check it out.</p>
           </header>
 
           <footer>
             <Scroll type="id" element={'portfolio'}>
-              <a href="#portfolio" className="button">
+              <a href="#  " className="button">
                 Show me
               </a>
             </Scroll>
@@ -52,21 +59,49 @@ const IndexPage = () => (
             <h2>Portfolio</h2>
           </header>
 
-          <p>
-            Life will feel it is always a great need for eu valley, the valley
-            CNN ridiculous smile at any time chat mainstream clinical homes.
-            Mauris floor was very warm and we need it. One customer now nibh
-            Bureau dark pools behavior.
-          </p>
+          <p></p>
 
           <div className="row">
-            <div className="col-4 col-12-mobile">
+            <div className="col-6 col-12-mobile">
               <article className="item">
                 <a href="/#" className="image fit">
-                  <img src={pic2} alt="" />
+                  <img src={pic5} alt="" />
                 </a>
                 <header>
-                  <h3>Ipsum Feugiat</h3>
+                  <h3 style={{ fontWeight: 'bold' }}>
+                    AMAG leasing calcualator
+                  </h3>
+                  <ul
+                    style={{
+                      textAlign: 'initial',
+                      listStylePosition: 'inside',
+                    }}
+                  >
+                    <li>Web Development (React, Redux, NodeJS)</li>
+                    <li>Form and data handling/validations</li>
+                    <li>Data API Frontend PROXY</li>
+                  </ul>
+                </header>
+              </article>
+
+              <article className="item">
+                <a href="/#" className="image fit">
+                  <img src={pic6} alt="" />
+                </a>
+                <header>
+                  <h3 style={{ fontWeight: 'bold' }}>
+                    Contact Form{':'}CRM connection
+                  </h3>
+                  <ul
+                    style={{
+                      textAlign: 'initial',
+                      listStylePosition: 'inside',
+                    }}
+                  >
+                    <li>Form submit handling and forwarding</li>
+                    <li>Google Tag Manager triggers</li>
+                    <li>Hubspot Form setup and settings</li>
+                  </ul>
                 </header>
               </article>
               <article className="item">
@@ -74,35 +109,19 @@ const IndexPage = () => (
                   <img src={pic3} alt="" />
                 </a>
                 <header>
-                  <h3>Rhoncus Semper</h3>
-                </header>
-              </article>
-            </div>
-            <div className="col-4 col-12-mobile">
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic4} alt="" />
-                </a>
-                <header>
-                  <h3>Magna Nullam</h3>
-                </header>
-              </article>
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic5} alt="" />
-                </a>
-                <header>
-                  <h3>Natoque Vitae</h3>
-                </header>
-              </article>
-            </div>
-            <div className="col-4 col-12-mobile">
-              <article className="item">
-                <a href="/#" className="image fit">
-                  <img src={pic6} alt="" />
-                </a>
-                <header>
-                  <h3>Dolor Penatibus</h3>
+                  <h3 style={{ fontWeight: 'bold' }}>
+                    Shop The Look - Blue Tomato
+                  </h3>
+                  <ul
+                    style={{
+                      textAlign: 'initial',
+                      listStylePosition: 'inside',
+                    }}
+                  >
+                    <li>Frontend Development (React, create-react-app)</li>
+                    <li>Product database connector</li>
+                    <li>Google Tag Manager triggers and code blocks</li>
+                  </ul>
                 </header>
               </article>
               <article className="item">
@@ -110,7 +129,182 @@ const IndexPage = () => (
                   <img src={pic7} alt="" />
                 </a>
                 <header>
-                  <h3>Orci Convallis</h3>
+                  <h3 style={{ fontWeight: 'bold' }}>
+                    Marketing Lead Forms - Statec Binder
+                  </h3>
+                  <ul
+                    style={{
+                      textAlign: 'initial',
+                      listStylePosition: 'inside',
+                    }}
+                  >
+                    <li>Frontend Development (HTML, CSS, JS)</li>
+                    <li>Hubspot Form Feature Setup</li>
+                    <li>Form Submit Handling</li>
+                    <li>Google Tag Manager triggers and code blocks</li>
+                  </ul>
+                </header>
+              </article>
+              <article className="item">
+                <a href="/#" className="image fit">
+                  <img src={pic10} alt="" />
+                </a>
+                <header>
+                  <h3 style={{ fontWeight: 'bold' }}>
+                    Project Management Setup - Statec Binder
+                  </h3>
+                  <ul
+                    style={{
+                      textAlign: 'initial',
+                      listStylePosition: 'inside',
+                    }}
+                  >
+                    <li>Jira Software/Helpdesk Setup</li>
+                    <li>Implementation workflow rules</li>
+                    <li>Create organization-specific guidelines</li>
+                  </ul>
+                </header>
+              </article>
+              <article className="item">
+                <a href="/#" className="image fit">
+                  <img src={pic11} alt="" />
+                </a>
+                <header>
+                  <h3 style={{ fontWeight: 'bold' }}>
+                    Realtime Database Updates - Scheucher Parkett
+                  </h3>
+                  <ul
+                    style={{
+                      textAlign: 'initial',
+                      listStylePosition: 'inside',
+                    }}
+                  >
+                    <li>PostgreSQL sync processing OPC machine data</li>
+                    <li>Runtime and stability checks</li>
+                  </ul>
+                </header>
+              </article>
+            </div>
+            <div className="col-6 col-12-mobile">
+              <article className="item">
+                <a href="/#" className="image fit">
+                  <img src={pic4} alt="" />
+                </a>
+                <header>
+                  <h3 style={{ fontWeight: 'bold' }}>
+                    Team Riders section - Blue Tomato
+                  </h3>
+                  <ul
+                    style={{
+                      textAlign: 'initial',
+                      listStylePosition: 'inside',
+                    }}
+                  >
+                    <li>Solution Architecture</li>
+                    <li>Backend Development (PHP)</li>
+                    <li>Frontenend Development (React, create-react-app)</li>
+                    <li>CSS Grid implementation</li>
+                  </ul>
+                </header>
+              </article>
+              <article className="item">
+                <a href="/#" className="image fit">
+                  <img src={pic2} alt="" />
+                </a>
+                <header>
+                  <h3 style={{ fontWeight: 'bold' }}>
+                    Personal Business website - Daniela Sohneg
+                  </h3>
+                  <ul
+                    style={{
+                      textAlign: 'initial',
+                      listStylePosition: 'inside',
+                    }}
+                  >
+                    <li>Backend Setup using Contentful</li>
+                    <li>Implementation of Backend connector</li>
+                    <li>Static Site Seneration (GatsbyJS)</li>
+                    <li>Frontend Development (React)</li>
+                  </ul>
+                </header>
+              </article>
+              <article className="item">
+                <a href="/#" className="image fit">
+                  <img src={pic12} alt="" />
+                </a>
+                <header>
+                  <h3 style={{ fontWeight: 'bold' }}>
+                    Buyers Guides - Blue Tomato
+                  </h3>
+                  <ul
+                    style={{
+                      textAlign: 'initial',
+                      listStylePosition: 'inside',
+                    }}
+                  >
+                    <li>Backend Setup Elasticsearch</li>
+                    <li>Frontend Development (HTML, CSS, SASS)</li>
+                    <li>React partials rendering</li>
+                  </ul>
+                </header>
+              </article>
+              <article className="item">
+                <a href="/#" className="image fit">
+                  <img src={pic13} alt="" />
+                </a>
+                <header>
+                  <h3 style={{ fontWeight: 'bold' }}>
+                    Navigation of new docs - Open Source - Prisma
+                  </h3>
+                  <ul
+                    style={{
+                      textAlign: 'initial',
+                      listStylePosition: 'inside',
+                    }}
+                  >
+                    <li>Frontend Development (React)</li>
+                    <li>Code base pushed to Github</li>
+                  </ul>
+                </header>
+              </article>
+              <article className="item">
+                <a href="/#" className="image fit">
+                  <img src={pic8} alt="" />
+                </a>
+                <header>
+                  <h3 style={{ fontWeight: 'bold' }}>
+                    Graphql API - Blue Tomato Data Cloud
+                  </h3>
+                  <ul
+                    style={{
+                      textAlign: 'initial',
+                      listStylePosition: 'inside',
+                    }}
+                  >
+                    <li>Graphql Server (NodeJS)</li>
+                    <li>Data Consolidation from serveral sources</li>
+                    <li>Distribution handling using Apollo packages</li>
+                  </ul>
+                </header>
+              </article>
+             
+              <article className="item">
+                <a href="/#" className="image fit">
+                  <img src={pic9} alt="" />
+                </a>
+                <header>
+                  <h3 style={{ fontWeight: 'bold' }}>
+                    Hubspot CRM Implementation - Statec Binder
+                  </h3>
+                  <ul
+                    style={{
+                      textAlign: 'initial',
+                      listStylePosition: 'inside',
+                    }}
+                  >
+                    <li>Base concept for company-wide usage</li>
+                    <li>Technical responsibilities and API connectors</li>
+                  </ul>
                 </header>
               </article>
             </div>
@@ -123,20 +317,115 @@ const IndexPage = () => (
           <header>
             <h2>About Me</h2>
           </header>
-
-          <a href="/#" className="image featured">
-            <img src={pic8} alt="" />
-          </a>
+          <div
+            className="row"
+            style={{ display: 'flex', justifyContent: 'center' }}
+          >
+            <div className="col-4 col-8-mobile">
+              <a href="/#" className="image featured">
+                <img
+                  src={portrait}
+                  alt="Manuel Penaloza - Web & Software developer"
+                  style={{ borderRadius: '100%' }}
+                />
+              </a>
+            </div>
+          </div>
 
           <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
+            I grew up in Upper Austria in a small village on the landside. I was
+            already fascinated by what computers and the internet enable us to
+            do at an early age. Though it wasn't that I've already started
+            coding at an early age, it was more using those gadgets to manage
+            social media, play games, or create graphics for music events I've
+            organized. But yeah, luckily besides that, there was also enough
+            time to go skateboarding and break some bones.
           </p>
+          <p>
+            Time passed by, and through using software and the internet heavily
+            in my late teens and early twenties, I more and more focused on
+            creating and coding software and web applications on my own. My
+            former Marketing studies - which I finished in 2013 - complete my
+            ability to build software. Either in terms of "understanding clients
+            better" or to better understand the software's market fit, which
+            helps enormously define a development strategy and plan.
+          </p>
+          <p>
+            In the meantime, I've been writing code and creating business
+            applications for over 10 years. In this way, I've gained experience
+            with different technologies, different kinds of people, and several
+            business cases. Exactly this amount and variation of knowledge are
+            the lovely parts of building software that helps people and
+            organizations solve problems and achieve goals. Also, this fact is
+            the primary driver that keeps me going doing this in the future, get
+            better, and thus leave my dent in the universe.
+          </p>
+        </div>
+      </section>
+
+      <section id="createtogether" className="two">
+        <div className="container">
+          <header>
+            <h2>Create together</h2>
+          </header>
+          <div className="row">
+            <div className="col-3 col-6-mobile" style={{ textAlign: 'center' }}>
+              <span
+                className={`icon fa-code`}
+                style={{ color: 'rgb(142, 190, 188)' }}
+              />
+              <h3 style={{ lineHeight: 1, marginBottom: 12 }}>
+                Technical Development
+              </h3>
+              <p style={{ fontSize: 16, lineHeight: 1.5 }}>
+                We can build whole webshops/websites and background jobs
+                together, or just some parts that will make your already
+                existing product better and more effective.
+              </p>
+            </div>
+            <div className="col-3 col-6-mobile" style={{ textAlign: 'center' }}>
+              <span
+                className={`icon fa-sitemap`}
+                style={{ color: 'rgb(142, 190, 188)' }}
+              />
+              <h3 style={{ lineHeight: 1, marginBottom: 12 }}>
+                Solutions Architecture
+              </h3>
+              <p style={{ fontSize: 16, lineHeight: 1.5 }}>
+                My experience in thinking, designing and implementing large
+                scale web and mobile applications will ensure long-term
+                stability of your software.
+              </p>
+            </div>
+            <div className="col-3 col-6-mobile" style={{ textAlign: 'center' }}>
+              <span
+                className={`icon fa-exclamation-circle`}
+                style={{ color: 'rgb(142, 190, 188)' }}
+              />
+              <h3 style={{ lineHeight: 1, marginBottom: 12 }}>
+                Problem Solver
+              </h3>
+              <p style={{ fontSize: 16, lineHeight: 1.5 }}>
+                Well, not always :). But most of the time there is a solution to
+                all the software and business problems out there. I'll make sure
+                to find the most appropriate solutions.
+              </p>
+            </div>
+            <div className="col-3 col-6-mobile" style={{ textAlign: 'center' }}>
+              <span
+                className={`icon fa-exclamation-circle`}
+                style={{ color: 'rgb(142, 190, 188)' }}
+              />
+              <h3 style={{ lineHeight: 1, marginBottom: 12 }}>
+                Project Management
+              </h3>
+              <p style={{ fontSize: 16, lineHeight: 1.5 }}>
+                Sometimes people know how to manage project, sometimes people do
+                not and projects become more hopeless than useful. I am part of
+                the experienced and good people.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -147,14 +436,14 @@ const IndexPage = () => (
           </header>
 
           <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
+            Contact me using the upcoming form if you have questions, want to
+            say `Hello!` or if you're going to work together with me. I'll get
+            back to you, though it might take some time, depending on my current
+            workload. In case you want me to call back, please also send me your
+            phone number in your message.
           </p>
 
-          <form method="post" action="#">
+          <form method="post" action="https://formspree.io/xoqkglzo">
             <div className="row">
               <div className="col-6 col-12-mobile">
                 <input type="text" name="name" placeholder="Name" />

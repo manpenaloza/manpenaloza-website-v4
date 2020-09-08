@@ -1,3 +1,6 @@
+# Own Implementations
+- Form Handling done with a Formspree Form (see `Contact` code section for further implementation details)
+
 # gatsby-starter-prologue
 
 Gatsby.js V2 starter template based on Prologue by HTML5 UP
