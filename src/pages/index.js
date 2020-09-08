@@ -51,7 +51,7 @@ const IndexPage = () => (
           <footer>
             <Scroll type="id" element={'portfolio'}>
               <a href="#  " className="button">
-                Show me
+                SHOW ME
               </a>
             </Scroll>
           </footer>
@@ -69,12 +69,27 @@ const IndexPage = () => (
           <div className="row">
             <div className="col-6 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  href="/#"
+                  className="image fit"
+                  style={{ position: 'relative' }}
+                >
+                  <div
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      right: 0,
+                      bottom: 0,
+                      left: 0,
+                      background:
+                        'linear-gradient(rgba(226, 118, 137, .05), rgba(255, 255, 255, .0))',
+                    }}
+                  />
                   <img src={pic5} alt="" />
                 </a>
                 <header>
                   <h3 style={{ fontWeight: 'bold' }}>
-                    AMAG leasing calcualator
+                    AMAG leasing calculator
                   </h3>
                   <ul
                     style={{
@@ -90,7 +105,22 @@ const IndexPage = () => (
               </article>
 
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  href="/#"
+                  className="image fit"
+                  style={{ position: 'relative' }}
+                >
+                  <div
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      right: 0,
+                      bottom: 0,
+                      left: 0,
+                      background:
+                        'linear-gradient(rgba(226, 118, 137, .05), rgba(255, 255, 255, .0))',
+                    }}
+                  />
                   <img src={pic6} alt="" />
                 </a>
                 <header>
@@ -110,7 +140,22 @@ const IndexPage = () => (
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  href="/#"
+                  className="image fit"
+                  style={{ position: 'relative' }}
+                >
+                  <div
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      right: 0,
+                      bottom: 0,
+                      left: 0,
+                      background:
+                        'linear-gradient(rgba(226, 118, 137, .05), rgba(255, 255, 255, .0))',
+                    }}
+                  />
                   <img src={pic3} alt="" />
                 </a>
                 <header>
@@ -130,7 +175,22 @@ const IndexPage = () => (
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  href="/#"
+                  className="image fit"
+                  style={{ position: 'relative' }}
+                >
+                  <div
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      right: 0,
+                      bottom: 0,
+                      left: 0,
+                      background:
+                        'linear-gradient(rgba(226, 118, 137, .05), rgba(255, 255, 255, .0))',
+                    }}
+                  />
                   <img src={pic7} alt="" />
                 </a>
                 <header>
@@ -151,7 +211,22 @@ const IndexPage = () => (
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  href="/#"
+                  className="image fit"
+                  style={{ position: 'relative' }}
+                >
+                  <div
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      right: 0,
+                      bottom: 0,
+                      left: 0,
+                      background:
+                        'linear-gradient(rgba(226, 118, 137, .05), rgba(255, 255, 255, .0))',
+                    }}
+                  />
                   <img src={pic14} alt="" />
                 </a>
                 <header>
@@ -172,7 +247,22 @@ const IndexPage = () => (
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  href="/#"
+                  className="image fit"
+                  style={{ position: 'relative' }}
+                >
+                  <div
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      right: 0,
+                      bottom: 0,
+                      left: 0,
+                      background:
+                        'linear-gradient(rgba(226, 118, 137, .05), rgba(255, 255, 255, .0))',
+                    }}
+                  />
                   <img src={pic11} alt="" />
                 </a>
                 <header>
@@ -191,7 +281,22 @@ const IndexPage = () => (
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  href="/#"
+                  className="image fit"
+                  style={{ position: 'relative' }}
+                >
+                  <div
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      right: 0,
+                      bottom: 0,
+                      left: 0,
+                      background:
+                        'linear-gradient(rgba(226, 118, 137, .05), rgba(255, 255, 255, .0))',
+                    }}
+                  />
                   <img src={pic10} alt="" />
                 </a>
                 <header>
@@ -213,7 +318,22 @@ const IndexPage = () => (
             </div>
             <div className="col-6 col-12-mobile">
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  href="/#"
+                  className="image fit"
+                  style={{ position: 'relative' }}
+                >
+                  <div
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      right: 0,
+                      bottom: 0,
+                      left: 0,
+                      background:
+                        'linear-gradient(rgba(226, 118, 137, .05), rgba(255, 255, 255, .0))',
+                    }}
+                  />
                   <img src={pic4} alt="" />
                 </a>
                 <header>
@@ -234,7 +354,22 @@ const IndexPage = () => (
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  href="/#"
+                  className="image fit"
+                  style={{ position: 'relative' }}
+                >
+                  <div
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      right: 0,
+                      bottom: 0,
+                      left: 0,
+                      background:
+                        'linear-gradient(rgba(226, 118, 137, .05), rgba(255, 255, 255, .0))',
+                    }}
+                  />
                   <img src={pic2} alt="" />
                 </a>
                 <header>
@@ -255,7 +390,22 @@ const IndexPage = () => (
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  href="/#"
+                  className="image fit"
+                  style={{ position: 'relative' }}
+                >
+                  <div
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      right: 0,
+                      bottom: 0,
+                      left: 0,
+                      background:
+                        'linear-gradient(rgba(226, 118, 137, .05), rgba(255, 255, 255, .0))',
+                    }}
+                  />
                   <img src={pic12} alt="" />
                 </a>
                 <header>
@@ -275,7 +425,22 @@ const IndexPage = () => (
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  href="/#"
+                  className="image fit"
+                  style={{ position: 'relative' }}
+                >
+                  <div
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      right: 0,
+                      bottom: 0,
+                      left: 0,
+                      background:
+                        'linear-gradient(rgba(226, 118, 137, .05), rgba(255, 255, 255, .0))',
+                    }}
+                  />
                   <img src={pic13} alt="" />
                 </a>
                 <header>
@@ -294,7 +459,22 @@ const IndexPage = () => (
                 </header>
               </article>
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  href="/#"
+                  className="image fit"
+                  style={{ position: 'relative' }}
+                >
+                  <div
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      right: 0,
+                      bottom: 0,
+                      left: 0,
+                      background:
+                        'linear-gradient(rgba(226, 118, 137, .05), rgba(255, 255, 255, .0))',
+                    }}
+                  />
                   <img src={pic8} alt="" />
                 </a>
                 <header>
@@ -315,7 +495,22 @@ const IndexPage = () => (
               </article>
 
               <article className="item">
-                <a href="/#" className="image fit">
+                <a
+                  href="/#"
+                  className="image fit"
+                  style={{ position: 'relative' }}
+                >
+                  <div
+                    style={{
+                      position: 'absolute',
+                      top: 0,
+                      right: 0,
+                      bottom: 0,
+                      left: 0,
+                      background:
+                        'linear-gradient(rgba(226, 118, 137, .05), rgba(255, 255, 255, .0))',
+                    }}
+                  />
                   <img src={pic9} alt="" />
                 </a>
                 <header>
@@ -472,16 +667,16 @@ const IndexPage = () => (
           <form method="post" action="https://formspree.io/xoqkglzo">
             <div className="row">
               <div className="col-6 col-12-mobile">
-                <input type="text" name="name" placeholder="Name" />
+                <input type="text" name="name" placeholder="Your name" />
               </div>
               <div className="col-6 col-12-mobile">
-                <input type="text" name="email" placeholder="Email" />
+                <input type="text" name="email" placeholder="Email address" />
               </div>
               <div className="col-12">
-                <textarea name="message" placeholder="Message" />
+                <textarea name="message" placeholder="What's up?" />
               </div>
               <div className="col-12">
-                <input type="submit" value="Send Message" />
+                <input type="submit" value="SEND MESSAGE" />
               </div>
             </div>
           </form>
