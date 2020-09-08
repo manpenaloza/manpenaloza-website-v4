@@ -273,7 +273,7 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3 style={{ fontWeight: 'bold' }}>
-                    Graphql API - Blue Tomato Data Cloud
+                    Graphql API - Blue Tomato DataCloud
                   </h3>
                   <ul
                     style={{
