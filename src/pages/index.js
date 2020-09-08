@@ -37,10 +37,11 @@ const IndexPage = () => (
           <header>
             <h2 className="alt">
               Hi! I'm <strong>Manuel</strong>
-              <br />
-              Web & Software developer
+              <br/>
+              <span style={{ display: "block"}}>Web & Software developer</span>
             </h2>
-            <p>I've made few things using code.<br /> Check it out.</p>
+            
+            <p>I've made few things using code.<span style={{ display: "block"}}>Check it out.</span></p>
           </header>
 
           <footer>
