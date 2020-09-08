@@ -489,6 +489,7 @@ const IndexPage = () => (
                   >
                     <li>Graphql Server (NodeJS)</li>
                     <li>Data Consolidation from serveral sources</li>
+                    <li>Redis Caching Strategy</li>
                     <li>Distribution handling using Apollo packages</li>
                   </ul>
                 </header>
