@@ -240,6 +240,7 @@ const IndexPage = () => (
                     }}
                   >
                     <li>Static Site Seneration (GatsbyJS)</li>
+                    <li>Creation Design Templates using Sketch</li>
                     <li>Backend Setup using Contentful</li>
                     <li>NodeJS-side implementation of Backend connector</li>
                     <li>Template Development (React)</li>
