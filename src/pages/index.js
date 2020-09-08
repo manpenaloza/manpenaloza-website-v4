@@ -40,7 +40,7 @@ const IndexPage = () => (
               <br />
               Web & Software developer
             </h2>
-            <p>I've made few things using code. Check it out.</p>
+            <p>I've made few things using code.<br /> Check it out.</p>
           </header>
 
           <footer>
@@ -333,9 +333,9 @@ const IndexPage = () => (
           </div>
 
           <p>
-            I grew up in Upper Austria in a small village on the landside. I was
-            already fascinated by what computers and the internet enable us to
-            do at an early age. Though it wasn't that I've already started
+            I grew up in Upper Austria in a small village on the landside. Already at an early age I was
+            fascinated by what computers and the internet enable us to
+            do. Though it wasn't that I've already started
             coding at an early age, it was more using those gadgets to manage
             social media, play games, or create graphics for music events I've
             organized. But yeah, luckily besides that, there was also enough
