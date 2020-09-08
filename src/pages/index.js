@@ -16,6 +16,7 @@ import pic10 from '../assets/images/pic10.jpg';
 import pic11 from '../assets/images/pic11.jpg';
 import pic12 from '../assets/images/pic12.jpg';
 import pic13 from '../assets/images/pic13.jpg';
+import pic14 from '../assets/images/pic14.jpg';
 import portrait from '../assets/images/portrait.jpg';
 import Scroll from '../components/Scroll';
 
@@ -37,11 +38,14 @@ const IndexPage = () => (
           <header>
             <h2 className="alt">
               Hi! I'm <strong>Manuel</strong>
-              <br/>
-              <span style={{ display: "block"}}>Web & Software developer</span>
+              <br />
+              <span style={{ display: 'block' }}>Web & Software developer</span>
             </h2>
-            
-            <p>I've made few things using code.<span style={{ display: "block"}}>Check it out.</span></p>
+
+            <p>
+              I've made few things using code.
+              <span style={{ display: 'block' }}>Check it out.</span>
+            </p>
           </header>
 
           <footer>
@@ -148,11 +152,11 @@ const IndexPage = () => (
               </article>
               <article className="item">
                 <a href="/#" className="image fit">
-                  <img src={pic10} alt="" />
+                  <img src={pic14} alt="" />
                 </a>
                 <header>
                   <h3 style={{ fontWeight: 'bold' }}>
-                    Project Management Setup - Statec Binder
+                    Personal Business website V1 - Daniela Sohneg
                   </h3>
                   <ul
                     style={{
@@ -160,9 +164,10 @@ const IndexPage = () => (
                       listStylePosition: 'inside',
                     }}
                   >
-                    <li>Jira Software/Helpdesk Setup</li>
-                    <li>Implementation workflow rules</li>
-                    <li>Create organization-specific guidelines</li>
+                    <li>Static Site Seneration (GatsbyJS)</li>
+                    <li>Backend Setup using Contentful</li>
+                    <li>NodeJS-side implementation of Backend connector</li>
+                    <li>Template Development (React)</li>
                   </ul>
                 </header>
               </article>
@@ -182,6 +187,26 @@ const IndexPage = () => (
                   >
                     <li>PostgreSQL sync processing OPC machine data</li>
                     <li>Runtime and stability checks</li>
+                  </ul>
+                </header>
+              </article>
+              <article className="item">
+                <a href="/#" className="image fit">
+                  <img src={pic10} alt="" />
+                </a>
+                <header>
+                  <h3 style={{ fontWeight: 'bold' }}>
+                    Project Management Setup - Statec Binder
+                  </h3>
+                  <ul
+                    style={{
+                      textAlign: 'initial',
+                      listStylePosition: 'inside',
+                    }}
+                  >
+                    <li>Jira Software/Helpdesk Setup</li>
+                    <li>Implementation workflow rules</li>
+                    <li>Create organization-specific guidelines</li>
                   </ul>
                 </header>
               </article>
@@ -214,7 +239,7 @@ const IndexPage = () => (
                 </a>
                 <header>
                   <h3 style={{ fontWeight: 'bold' }}>
-                    Personal Business website - Daniela Sohneg
+                    Personal Business website V2 - Daniela Sohneg
                   </h3>
                   <ul
                     style={{
@@ -288,7 +313,7 @@ const IndexPage = () => (
                   </ul>
                 </header>
               </article>
-             
+
               <article className="item">
                 <a href="/#" className="image fit">
                   <img src={pic9} alt="" />
@@ -334,9 +359,9 @@ const IndexPage = () => (
           </div>
 
           <p>
-            I grew up in Upper Austria in a small village on the landside. Already at an early age I was
-            fascinated by what computers and the internet enable us to
-            do. Though it wasn't that I've already started
+            I grew up in Upper Austria in a small village on the landside.
+            Already at an early age I was fascinated by what computers and the
+            internet enable us to do. Though it wasn't that I've already started
             coding at an early age, it was more using those gadgets to manage
             social media, play games, or create graphics for music events I've
             organized. But yeah, luckily besides that, there was also enough
