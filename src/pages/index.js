@@ -64,7 +64,7 @@ const IndexPage = () => (
             <h2>Portfolio</h2>
           </header>
 
-          <p></p>
+          <p>Below you can see the most recent projects I either built from start to end or contributed features and knowledge. Read the listings below each project to find out more details about my project contributions. I've you've in-depth questions on any of those listings, please don't hesitate to drop me a line.</p>
 
           <div className="row">
             <div className="col-6 col-12-mobile">
@@ -670,7 +670,7 @@ const IndexPage = () => (
                 <input type="text" name="name" placeholder="Your name" />
               </div>
               <div className="col-6 col-12-mobile">
-                <input type="text" name="email" placeholder="Email address" />
+                <input type="email" name="_replyto" placeholder="Email address" />
               </div>
               <div className="col-12">
                 <textarea name="message" placeholder="What's up?" />
