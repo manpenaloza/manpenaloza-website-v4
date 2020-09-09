@@ -64,7 +64,13 @@ const IndexPage = () => (
             <h2>Portfolio</h2>
           </header>
 
-          <p>Below you can see the most recent projects I either built from start to end or contributed features and knowledge. Read the listings below each project to find out more details about my project contributions. I've you've in-depth questions on any of those listings, please don't hesitate to drop me a line.</p>
+          <p>
+            Below you can see the most recent projects I either built from start
+            to end or contributed features and knowledge. Read the listings
+            below each project to find out more details about my contributions.
+            If you've in-depth questions on any of those listings, please don't
+            hesitate to drop me a line.
+          </p>
 
           <div className="row">
             <div className="col-6 col-12-mobile">
@@ -204,8 +210,8 @@ const IndexPage = () => (
                     }}
                   >
                     <li>Frontend Development (HTML, CSS, JS)</li>
-                    <li>Hubspot Form Feature Setup</li>
-                    <li>Form Submit Handling</li>
+                    <li>Hubspot form feature setup</li>
+                    <li>Form submit handling</li>
                     <li>Google Tag Manager triggers and code blocks</li>
                   </ul>
                 </header>
@@ -240,10 +246,10 @@ const IndexPage = () => (
                     }}
                   >
                     <li>Static Site Seneration (GatsbyJS)</li>
-                    <li>Creation Design Templates using Sketch</li>
-                    <li>Backend Setup using Contentful</li>
+                    <li>Creation design templates using Sketch</li>
+                    <li>Backend setup using Contentful</li>
                     <li>NodeJS-side implementation of Backend connector</li>
-                    <li>Template Development (React)</li>
+                    <li>Template coding (React)</li>
                   </ul>
                 </header>
               </article>
@@ -421,7 +427,8 @@ const IndexPage = () => (
                   >
                     <li>Backend Setup Elasticsearch</li>
                     <li>Frontend Development (HTML, CSS, SASS)</li>
-                    <li>React partials rendering</li>
+                    <li>React components rendering</li>
+                    <li>Provide webshop integration for SAP Commerce</li>
                   </ul>
                 </header>
               </article>
@@ -489,8 +496,8 @@ const IndexPage = () => (
                     }}
                   >
                     <li>Graphql Server (NodeJS)</li>
-                    <li>Data Consolidation from serveral sources</li>
-                    <li>Redis Caching Strategy</li>
+                    <li>Data consolidation from serveral sources</li>
+                    <li>Redis caching strategy and implementation</li>
                     <li>Distribution handling using Apollo packages</li>
                   </ul>
                 </header>
@@ -567,21 +574,21 @@ const IndexPage = () => (
           <p>
             Time passed by, and through using software and the internet heavily
             in my late teens and early twenties, I more and more focused on
-            creating and coding software and web applications on my own. My
-            former Marketing studies - which I finished in 2013 - complete my
-            ability to build software. Either in terms of "understanding clients
-            better" or to better understand the software's market fit, which
-            helps enormously to define a development strategy and plan.
+            creating and coding software/ web applications on my own. My former
+            Marketing studies - which I finished in 2013 - complete my ability
+            to build effective software. Either in terms of "understanding
+            clients better" or to better understand the software's market fit,
+            which helps enormously to define a development strategy and plan.
           </p>
           <p>
             In the meantime, I've been writing code and creating business
             applications for over 10 years. In this way, I've gained experience
             with different technologies, different kinds of people, and several
             business cases. Exactly this amount and variation of knowledge are
-            the lovely parts of building software that helps people and
-            organizations solve problems and achieve goals. Also, this fact is
-            the primary driver that keeps me going doing this in the future, get
-            better, and thus leave my dent in the universe.
+            the absolutely lovely parts of building software that helps people
+            and organizations grow and achieve goals. This fact is the primary
+            driver that keeps me going to get better, and thus leave my dent in
+            the universe.
           </p>
         </div>
       </section>
@@ -669,10 +676,20 @@ const IndexPage = () => (
           <form method="post" action="https://formspree.io/xoqkglzo">
             <div className="row">
               <div className="col-6 col-12-mobile">
-                <input type="text" name="name" placeholder="Your name" required />
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your name"
+                  required
+                />
               </div>
               <div className="col-6 col-12-mobile">
-                <input type="email" name="_replyto" placeholder="Email address" required />
+                <input
+                  type="email"
+                  name="_replyto"
+                  placeholder="Email address"
+                  required
+                />
               </div>
               <div className="col-12">
                 <textarea name="message" placeholder="What's up?" />
