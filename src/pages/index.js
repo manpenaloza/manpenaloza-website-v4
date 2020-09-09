@@ -643,7 +643,7 @@ const IndexPage = () => (
             </div>
             <div className="col-3 col-6-mobile" style={{ textAlign: 'center' }}>
               <span
-                className={`icon fa-exclamation-circle`}
+                className={`icon fa-eye`}
                 style={{ color: 'rgb(142, 190, 188)' }}
               />
               <h3 style={{ lineHeight: 1, marginBottom: 12 }}>
