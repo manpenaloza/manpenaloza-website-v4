@@ -276,7 +276,7 @@ const IndexPage = () => (
                       listStylePosition: 'inside',
                     }}
                   >
-                    <li>PostgreSQL sync processing OPC machine data</li>
+                    <li>Database sync processing OPC machine data</li>
                     <li>Runtime and stability checks</li>
                   </ul>
                 </header>
