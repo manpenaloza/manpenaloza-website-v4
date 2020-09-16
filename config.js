@@ -35,7 +35,7 @@ module.exports = {
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:manuel.penaloza@gmx.at',
+      url: 'mailto:contact@manpenaloza.dev',
     },
   ],
 };
